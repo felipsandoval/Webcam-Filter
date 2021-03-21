@@ -1,0 +1,83 @@
+/* 
+    Stylesheet code made by Felipe Sandoval.
+*/
+
+@font-face{
+  font-family: main;
+  src: url("chunkfive.ttf");
+}
+
+@font-face{
+  font-family: title;
+  src: url("elegant.TTF");
+}
+
+body {
+	height: 100px;
+	background: #bad3fc;        
+	background: -webkit-linear-gradient(-90deg, #bad3fc, #dbe7f9);
+	background: -moz-linear-gradient(-90deg, #bad3fc, #dbe7f9);
+	background: linear-gradient(-90deg, #bad3fc, #dbe7f9);
+}
+
+h1#title{
+	font-family: title;
+	font-size: 70px;
+	cursor: default;
+	color: white; 
+}
+
+canvas {
+	position: absolute;
+	top: 160px;
+	right: 100px;
+}
+
+video {
+	position: absolute;
+	top: 160px;
+	left: 100px;
+	height: 300px;
+}
+
+.cromabg{
+	position: absolute;
+	top: 160px;
+	right: 100px;
+}
+
+button{
+	font-family: main;
+	position: absolute;
+	bottom: 10%;
+	border-width: 4px;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.greencroma{
+	left: 10%;
+	background-color: white;
+}
+
+.yellowcroma{
+	left: 50%;
+	background-color: yellow;
+}
+
+.bluecroma{
+	left: 80%;
+	background-color: dodgerblue;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button.greencroma:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,35 @@
+<!-- 
+    HTML5 code of Video-Filter Practice.
+    Made by Felipe Sandoval for CSAAI.
+-->
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<meta charset="utf-8"/>
+		<script src="filtro.js"></script>
+		<link rel="stylesheet" href="filtro.css"/>
+    <title> VIDEO FILTER ON CANVAS </title>
+		
+  </head>
+
+	<body>
+		<img class="cromabg" id="backgroundimg" src="fondo-croma.jpg" style="visibility: hidden;">
+		<button class="yellowcroma" onclick="doyellow()"> CROMA </button>
+		<button class="bluecroma" onclick="doblue()"> FILTRO AZUL</button>
+		<button class="greencroma" onclick="dogreen()"> Blanco & Negro </button>
+		<center>
+			<h1 id="title"> VIDEO FILTER ON CANVAS </h1>
+		</center>
+		
+		<canvas id=myCanvas></canvas>
+		
+		<video id="myVideo" controls>
+			<source src="video3.mp4" type="video/mp4">
+		</video>
+
+	</body>
+
+</html>
